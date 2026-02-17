@@ -15,7 +15,8 @@ let package = Package(
         .target(
             name: "Data-Netlib",
             resources: [
-                .process("Resources")
+                // `.copy` leaves files untouched (no asset compilation).
+                .copy("Resources") // <-- raw test data
             ]
         )
     ]
