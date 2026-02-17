@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "Netlib",
+    name: "Data-Netlib",
     platforms: [.macOS(.v13), .iOS(.v15)],
     products: [
-        .library(name: "Netlib", targets: ["Netlib"])
+        .library(name: "Data-Netlib", targets: ["Data-Netlib"])
     ],
     dependencies: [],
     targets: [
@@ -13,7 +13,7 @@ let package = Package(
         // Resource‑only target
         // -----------------------------------------------------------------
         .target(
-            name: "Netlib",
+            name: "Data-Netlib",
             resources: [
                 .process("Resources")
             ]
