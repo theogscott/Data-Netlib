@@ -16,7 +16,7 @@ let package = Package(
             name: "DataNetlib",
             resources: [
                 // `.copy` leaves files untouched (no asset compilation).
-                .copy("Resources/Data/Netlib") // <-- raw test data
+                .copy("Resources/Data") // <-- raw test data
             ]
         )
     ]
