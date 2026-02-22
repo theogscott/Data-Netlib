@@ -1,3 +1,9 @@
+iar-lib
+aclocal.m4
+autom4te.cache
+
+
+#Xcode
 .DS_Store
 /.build
 /Packages
